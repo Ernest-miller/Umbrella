@@ -1,0 +1,31 @@
+* {box-sizing: border-box;}
+
+body { background: white; text-align: center;}/* background */
+
+.logo { position: relative; top: +5px; left: +250px; }/* img */
+
+.head-links {
+    text-align: center;
+    float: inline-end;
+    position: relative; top: -25px; left: -150px;
+    text-decoration-style: none;
+}
+.clear {clear: both;}
+
+.home {  background: red; }
+.news { background: black; }
+.products { background: green; }
+.features { background: yellow; }
+.contact { background: grey; }
+
+.umbrella { position: relative; opacity: 0.2; max-width: 100%; max-height: 100%; }
+
+.text1 { color:  blue; position: relative; top: +20px; left: 300px; font-family:  fantasy; }
+
+.carousel { width: 300px; text-align: center; overflow: hidden; top: 50px; left: -50px; }
+.slides { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; top: 50px; left: 50px; }
+.carousel-placement { position: relative; top: 70px; left: 50px; }
+
+@media(min-width: 375 and max-width 667) {
+    .text1 { background-color: red; }
+}
